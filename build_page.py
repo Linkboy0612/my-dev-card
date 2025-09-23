@@ -1,17 +1,17 @@
 def main():
     # 个⼈信息配置
     personal_info = {
-        "name": "张三",
+        "name": "Haiyin Li",
         "title": "AI Engineer",
         "description": "AI Engineer passionate about MLOps and automation.",
-        "skills": ["Python", "TensorFlow", "Git", "CI/CD", "Docker"],
+        "skills": ["Python", "Linux OS", "Git", "CI/CD", "Docker"],
         "projects": [
-            {"name": "项⽬⼀", "url": "https://github.com/yourusername/project1"},
-            {"name": "项⽬⼆", "url": "https://github.com/yourusername/project2"}
+            {"name": "待办事项管理系统 - 全栈应用", "url": "https://github.com/Linkboy0612/Todo-Management-System-for-Python.git"},
+            {"name": "项目任务管理系统", "url": "https://github.com/Linkboy0612/Project-Task-Manager.git"}
         ],
         "contact": {
-            "github": "https://github.com/yourusername",
-            "linkedin": "https://linkedin.com/in/yourprofile"
+            "github": "https://github.com/Linkboy0612",
+            "email": "lihaiyin0612@163.com"
         }
     }
 
@@ -103,7 +103,7 @@ def main():
             <div class="contact">
                 <p>
                     <a href="{personal_info['contact']['github']}" target="_blank">GitHub</a> |
-                    <a href="{personal_info['contact']['linkedin']}" target="_blank">LinkedIn</a>
+                    <a href="{personal_info['contact']['email']}" target="_blank">Email</a>
                 </p>
             </div>
         </div>
